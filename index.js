@@ -22,7 +22,12 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 
-function appendKitten(Ralph) {
+function appendKitten(Broom) {
   const moreKittens = [...kittens, 'Broom']
   return moreKittens
+}
+
+function prependKitten(Broom) {
+  const masKittens = ['Broom', ...kittens]
+  return masKittens
 }
