@@ -27,7 +27,19 @@ function appendKitten(Broom) {
   return moreKittens
 }
 
-function prependKitten(Broom) {
-  const masKittens = ['Broom', ...kittens]
+function prependKitten(Arnold) {
+  const masKittens = ['Arnold', ...kittens]
   return masKittens
 }
+
+function removeLastKitten() {
+  const lessKittens = kittens.slice(0, kittens.length -1)
+  return lessKittens
+}
+
+function removeFirstKitten() {
+  const menosKittens = kittens.slice(1)
+  return menosKittens
+}
+
+
