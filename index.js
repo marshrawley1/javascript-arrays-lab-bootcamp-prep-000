@@ -41,5 +41,3 @@ function removeFirstKitten() {
   const menosKittens = kittens.slice(1)
   return menosKittens
 }
-
-
